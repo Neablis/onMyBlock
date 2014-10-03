@@ -1,0 +1,66 @@
+<div class="page-header">
+    <h1>Listing Details</h1>
+</div>
+<div>
+    <div class="active row">
+        <span>
+            <span class="glyphicon glyphicon-ok"></span>Place Type
+            <button type="button" class="btn btn-primary btn-lg">Bedroom</button>
+        </span>
+    </div>
+
+    <div class="row">
+        <span>
+            <span class="glyphicon glyphicon-ok"></span>
+            Bedrooms
+            <div class="dropdown">
+                <a class="btn btn-default" data-toggle="dropdown" href=""><b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCountry">
+                    <li>
+                        <a>Private</a>
+                    </li>
+                    <li>
+                        <a>Shared</a>
+                    </li>
+                </ul>
+            </div>
+        </span>
+        <span>
+            <span class="glyphicon glyphicon-ok"></span>
+            Bathrooms
+            <div class="dropdown">
+                <a class="btn btn-default" data-toggle="dropdown" href=""><b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCountry">
+                    <li>
+                        <a>Private</a>
+                    </li>
+                    <li>
+                        <a>Shared</a>
+                    </li>
+                </ul>
+            </div>
+        </span>
+    </div>
+
+    <div class="row">
+        <span>
+            <span class="glyphicon glyphicon-ok"></span>
+            <form name="myForm">
+                Location <input type="text" name="userName" ng-model="user.name" required>
+                <span class="error" ng-show="myForm.userName.$error.required">Required!</span><br>
+            </form>
+        </span>
+    </div>
+
+    <div class="row">
+        <span>
+            <span class="glyphicon glyphicon-ok"></span>Duration
+            <div class="dropdown">
+                <a class="btn btn-default" data-toggle="dropdown" href=""><b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCountry">
+
+                </ul>
+            </div>
+        </span>
+    </div>
+</div>
